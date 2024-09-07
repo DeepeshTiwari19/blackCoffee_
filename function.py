@@ -1,10 +1,10 @@
 import os
 import re
 import nltk
+from nltk.corpus import stopwords
 from nltk.corpus import cmudict
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize
-from nltk.corpus import stopwords
 import string
 stop_words = set(stopwords.words('english'))
 punctuation = set(string.punctuation)
