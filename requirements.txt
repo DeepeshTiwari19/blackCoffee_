@@ -1,0 +1,5 @@
+selenium
+pandas
+openpyxl  #For xslx file read
+nltk
+textstat
