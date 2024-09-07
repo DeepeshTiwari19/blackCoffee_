@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import nltk
-from nltk.corpus import cmudict
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from collections import Counter
@@ -14,7 +13,7 @@ nltk.download('punkt')
 nltk.download('cmudict')
 nltk.download('stopwords')
 
-data=pd.read_excel('C:\\Users\\dell\\Downloads\\Input.xlsx')
+data=pd.read_excel('.\\Input.xlsx')
 data.head()
 
 
